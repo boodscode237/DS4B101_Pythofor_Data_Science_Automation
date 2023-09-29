@@ -45,7 +45,7 @@ orderlines_df = pd.read_excel(
     converters={'order.date': str}
 )
 
-bikes_df.head(10)
+print(bikes_df.head(10))
 #%%
 
 
